@@ -1,0 +1,736 @@
+2018-01-13 03:35:00.446  INFO 7483 --- [restartedMain] c.course.springbootstarter.CourseApiApp  : Starting CourseApiApp on yangbatu.lpmp-provbali.org with PID 7483 (/home/github.com/tutnatha/lpmp-prov-bali-assetmgmnt/target/classes started by root in /home/github.com/tutnatha/lpmp-prov-bali-assetmgmnt)
+2018-01-13 03:35:00.483  INFO 7483 --- [restartedMain] c.course.springbootstarter.CourseApiApp  : No active profile set, falling back to default profiles: default
+2018-01-13 03:35:00.718  INFO 7483 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11b2fbbd: startup date [Sat Jan 13 03:35:00 UTC 2018]; root of context hierarchy
+2018-01-13 03:35:05.235  INFO 7483 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8fbca09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-13 03:35:05.374  INFO 7483 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [class org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$61a99243] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-13 03:35:05.419  INFO 7483 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [class org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-13 03:35:05.440  INFO 7483 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@427c1374' of type [class org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-13 03:35:05.489  INFO 7483 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [class org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$867e34f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-13 03:35:05.536  INFO 7483 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [class org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-01-13 03:35:06.583  INFO 7483 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-13 03:35:06.627  INFO 7483 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-01-13 03:35:06.631  INFO 7483 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-01-13 03:35:06.890  INFO 7483 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-13 03:35:06.897  INFO 7483 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6182 ms
+2018-01-13 03:35:07.342  INFO 7483 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-13 03:35:07.362  INFO 7483 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-13 03:35:07.385  INFO 7483 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-13 03:35:07.392  INFO 7483 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-13 03:35:07.412  INFO 7483 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-01-13 03:35:07.437  INFO 7483 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-13 03:35:08.587  INFO 7483 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-01-13 03:35:08.649  INFO 7483 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-01-13 03:35:08.861  INFO 7483 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2018-01-13 03:35:08.881  INFO 7483 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-01-13 03:35:08.900  INFO 7483 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-01-13 03:35:08.981  INFO 7483 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-01-13 03:35:09.290  INFO 7483 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-01-13 03:35:10.490  INFO 7483 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2018-01-13 03:35:10.731  INFO 7483 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-01-13 03:35:12.928  INFO 7483 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b4811d0, org.springframework.security.web.context.SecurityContextPersistenceFilter@562504c4, org.springframework.security.web.header.HeaderWriterFilter@21f07f4c, org.springframework.security.web.authentication.logout.LogoutFilter@5f785b89, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2bbe4c95, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b8b4337, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15e39a32, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2cf98ae2, org.springframework.security.web.session.SessionManagementFilter@ba7845d, org.springframework.security.web.access.ExceptionTranslationFilter@69884b62, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b5ef6c5]
+2018-01-13 03:35:13.262  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11b2fbbd: startup date [Sat Jan 13 03:35:00 UTC 2018]; root of context hierarchy
+2018-01-13 03:35:13.451  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/badrooms]}" onto public java.util.List<com.course.springbootstarter.badroom.Badroom> com.course.springbootstarter.badroom.BadroomController.getAllBadrooms()
+2018-01-13 03:35:13.477  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/badrooms/{no}]}" onto public com.course.springbootstarter.badroom.Badroom com.course.springbootstarter.badroom.BadroomController.getBadroom(java.lang.String)
+2018-01-13 03:35:13.499  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/badrooms],methods=[POST]}" onto public void com.course.springbootstarter.badroom.BadroomController.addBadroom(com.course.springbootstarter.badroom.Badroom)
+2018-01-13 03:35:13.521  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/badrooms/{no}],methods=[PUT]}" onto public void com.course.springbootstarter.badroom.BadroomController.updateTopic(com.course.springbootstarter.badroom.Badroom,java.lang.String)
+2018-01-13 03:35:13.552  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/badrooms/{no}],methods=[DELETE]}" onto public void com.course.springbootstarter.badroom.BadroomController.deleteBadroom(java.lang.String)
+2018-01-13 03:35:13.565  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianHdrs/{no}],methods=[PUT]}" onto public void com.course.springbootstarter.daftarhunian.DaftarhunianHdrController.updateTopic(com.course.springbootstarter.daftarhunian.DaftarhunianHdr,java.lang.String)
+2018-01-13 03:35:13.600  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianHdrs]}" onto public java.util.List<com.course.springbootstarter.daftarhunian.DaftarhunianHdr> com.course.springbootstarter.daftarhunian.DaftarhunianHdrController.getAllDaftarhunianHdrs()
+2018-01-13 03:35:13.612  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianHdrs/{no}]}" onto public com.course.springbootstarter.daftarhunian.DaftarhunianHdr com.course.springbootstarter.daftarhunian.DaftarhunianHdrController.getDaftarhunianHdr(java.lang.String)
+2018-01-13 03:35:13.623  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianHdrs],methods=[POST]}" onto public void com.course.springbootstarter.daftarhunian.DaftarhunianHdrController.addDaftarhunianHdr(com.course.springbootstarter.daftarhunian.DaftarhunianHdr)
+2018-01-13 03:35:13.635  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianHdrs/{no}],methods=[DELETE]}" onto public void com.course.springbootstarter.daftarhunian.DaftarhunianHdrController.deleteDaftarhunianHdr(java.lang.String)
+2018-01-13 03:35:13.653  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianDtls/{no}],methods=[PUT]}" onto public void com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlController.updateTopic(com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtl,java.lang.String)
+2018-01-13 03:35:13.671  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianDtls]}" onto public java.util.List<com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtl> com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlController.getAllDaftarhunianDtls()
+2018-01-13 03:35:13.683  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianDtls/{no}]}" onto public com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtl com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlController.getDaftarhunianDtl(java.lang.String)
+2018-01-13 03:35:13.694  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianDtls],methods=[POST]}" onto public void com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlController.addDaftarhunianDtl(com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtl)
+2018-01-13 03:35:13.705  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/daftarhunianDtls/{no}],methods=[DELETE]}" onto public void com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlController.deleteDaftarhunianDtl(java.lang.String)
+2018-01-13 03:35:13.721  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kamars]}" onto public java.util.List<com.course.springbootstarter.kamar.Kamar> com.course.springbootstarter.kamar.KamarController.getAllKamars()
+2018-01-13 03:35:13.735  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kamars/{no}]}" onto public com.course.springbootstarter.kamar.Kamar com.course.springbootstarter.kamar.KamarController.getKamar(java.lang.String)
+2018-01-13 03:35:13.746  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kamars],methods=[POST]}" onto public void com.course.springbootstarter.kamar.KamarController.addKamar(com.course.springbootstarter.kamar.Kamar)
+2018-01-13 03:35:13.757  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/updateKamar/{no}],methods=[PUT]}" onto public void com.course.springbootstarter.kamar.KamarController.updateKamar(com.course.springbootstarter.kamar.Kamar,java.lang.String)
+2018-01-13 03:35:13.769  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/deleteKamar/{no}],methods=[DELETE]}" onto public void com.course.springbootstarter.kamar.KamarController.deleteKamar(java.lang.String)
+2018-01-13 03:35:13.780  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kegiatans/{kode}],methods=[PUT]}" onto public void com.course.springbootstarter.kegiatan.KegiatanController.updateTopic(com.course.springbootstarter.kegiatan.Kegiatan,java.lang.String)
+2018-01-13 03:35:13.791  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kegiatans/{kode}]}" onto public com.course.springbootstarter.kegiatan.Kegiatan com.course.springbootstarter.kegiatan.KegiatanController.getKegiatan(java.lang.String)
+2018-01-13 03:35:13.803  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kegiatans]}" onto public java.util.List<com.course.springbootstarter.kegiatan.Kegiatan> com.course.springbootstarter.kegiatan.KegiatanController.getAllKegiatans()
+2018-01-13 03:35:13.813  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kegiatans],methods=[POST]}" onto public void com.course.springbootstarter.kegiatan.KegiatanController.addKegiatan(com.course.springbootstarter.kegiatan.Kegiatan)
+2018-01-13 03:35:13.826  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/kegiatans/{kode}],methods=[DELETE]}" onto public void com.course.springbootstarter.kegiatan.KegiatanController.deleteKegiatan(java.lang.String)
+2018-01-13 03:35:13.837  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/pegawais/{nip}],methods=[PUT]}" onto public void com.course.springbootstarter.pegawai.PegawaiController.updateTopic(com.course.springbootstarter.pegawai.Pegawai,java.lang.String)
+2018-01-13 03:35:13.852  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/pegawais]}" onto public java.util.List<com.course.springbootstarter.pegawai.Pegawai> com.course.springbootstarter.pegawai.PegawaiController.getAllPegawais()
+2018-01-13 03:35:13.865  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/pegawais/{nip}]}" onto public com.course.springbootstarter.pegawai.Pegawai com.course.springbootstarter.pegawai.PegawaiController.getPegawai(java.lang.String)
+2018-01-13 03:35:13.876  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/pegawais],methods=[POST]}" onto public void com.course.springbootstarter.pegawai.PegawaiController.addPegawai(com.course.springbootstarter.pegawai.Pegawai)
+2018-01-13 03:35:13.887  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/pegawais/{nip}],methods=[DELETE]}" onto public void com.course.springbootstarter.pegawai.PegawaiController.deletePegawai(java.lang.String)
+2018-01-13 03:35:13.894  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics/{id}],methods=[PUT]}" onto public void com.course.springbootstarter.topic.TopicController.updateTopic(com.course.springbootstarter.topic.Topic,java.lang.String)
+2018-01-13 03:35:13.904  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics]}" onto public java.util.List<com.course.springbootstarter.topic.Topic> com.course.springbootstarter.topic.TopicController.getAllTopics()
+2018-01-13 03:35:13.911  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics/{id}]}" onto public com.course.springbootstarter.topic.Topic com.course.springbootstarter.topic.TopicController.getTopic(java.lang.String)
+2018-01-13 03:35:13.919  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics],methods=[POST]}" onto public void com.course.springbootstarter.topic.TopicController.addTopic(com.course.springbootstarter.topic.Topic)
+2018-01-13 03:35:13.930  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/topics/{id}],methods=[DELETE]}" onto public void com.course.springbootstarter.topic.TopicController.deleteTopic(java.lang.String)
+2018-01-13 03:35:13.943  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-01-13 03:35:13.991  INFO 7483 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-01-13 03:35:14.181  INFO 7483 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-13 03:35:14.203  INFO 7483 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-13 03:35:14.374  INFO 7483 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-01-13 03:35:15.018  INFO 7483 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-01-13 03:35:15.306  INFO 7483 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-13 03:35:15.479  INFO 7483 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-13 03:35:15.510  INFO 7483 --- [restartedMain] c.course.springbootstarter.CourseApiApp  : Started CourseApiApp in 16.02 seconds (JVM running for 16.73)
+2018-01-13 03:35:40.203  INFO 7483 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-13 03:35:40.239  INFO 7483 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-01-13 03:35:40.317  INFO 7483 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 54 ms
+2018-01-13 03:35:40.498  INFO 7483 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-01-13 03:35:40.738  WARN 7483 --- [http-nio-8080-exec-1] o.h.hql.internal.ast.HqlSqlWalker        : [DEPRECATION] Encountered positional parameter near line 1, column 77 in HQL: [SELECT u FROM com.course.springbootstarter.entity.UserInfo u WHERE userName=? and enabled=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2018-01-13 03:35:40.798  WARN 7483 --- [http-nio-8080-exec-1] o.h.hql.internal.ast.HqlSqlWalker        : [DEPRECATION] Encountered positional parameter near line 1, column 91 in HQL: [SELECT u FROM com.course.springbootstarter.entity.UserInfo u WHERE userName=? and enabled=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2018-01-13 03:35:40.893 DEBUG 7483 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 03:35:40.990 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [mukesh]
+2018-01-13 03:35:41.003 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 03:35:41.478 DEBUG 7483 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_0_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_0_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_0_,
+        daftarhuni0_.penyelenggara as penyelen4_3_0_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_0_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_0_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_0_ 
+    from
+        daftarhunian_hdr daftarhuni0_ 
+    where
+        daftarhuni0_.no_trx=?
+2018-01-13 03:35:41.586 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [258]
+2018-01-13 03:35:41.628 DEBUG 7483 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        daftarhunian_hdr
+        (jml_peserta, kode_kegiatan, penyelenggara, sudah_selesai, tgl_mulai, tgl_selesai) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2018-01-13 03:35:41.693 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [123]
+2018-01-13 03:35:41.713 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [123]
+2018-01-13 03:35:41.732 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [123]
+2018-01-13 03:35:41.740 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [N]
+2018-01-13 03:35:41.761 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [Wed Oct 08 16:00:00 UTC 3017]
+2018-01-13 03:35:41.781 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [TIMESTAMP] - [Mon Jul 08 16:00:00 UTC 2019]
+2018-01-13 03:35:54.339 DEBUG 7483 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 03:35:54.389 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [mukesh]
+2018-01-13 03:35:54.396 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 03:35:54.565 DEBUG 7483 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_0_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_0_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_0_,
+        daftarhuni0_.penyelenggara as penyelen4_3_0_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_0_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_0_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_0_ 
+    from
+        daftarhunian_hdr daftarhuni0_ 
+    where
+        daftarhuni0_.no_trx=?
+2018-01-13 03:35:54.610 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [258]
+2018-01-13 03:35:54.629 DEBUG 7483 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        daftarhunian_hdr
+        (jml_peserta, kode_kegiatan, penyelenggara, sudah_selesai, tgl_mulai, tgl_selesai) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2018-01-13 03:35:54.664 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [123]
+2018-01-13 03:35:54.670 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [123]
+2018-01-13 03:35:54.677 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [123]
+2018-01-13 03:35:54.684 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [VARCHAR] - [N]
+2018-01-13 03:35:54.690 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [Wed Oct 08 16:00:00 UTC 3017]
+2018-01-13 03:35:54.698 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [TIMESTAMP] - [Mon Jul 08 16:00:00 UTC 2019]
+2018-01-13 03:36:11.540 DEBUG 7483 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_,
+        daftarhuni0_.penyelenggara as penyelen4_3_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_ 
+    from
+        daftarhunian_hdr daftarhuni0_
+2018-01-13 04:39:33.040 DEBUG 7483 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 04:39:33.091 TRACE 7483 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [mukesh]
+2018-01-13 04:39:33.096 TRACE 7483 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 04:39:33.240 DEBUG 7483 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_,
+        daftarhuni0_.penyelenggara as penyelen4_3_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_ 
+    from
+        daftarhunian_hdr daftarhuni0_
+2018-01-13 05:50:07.952 DEBUG 7483 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 05:50:08.020 TRACE 7483 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - []
+2018-01-13 05:50:08.027 TRACE 7483 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 07:01:06.518 DEBUG 7483 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 07:01:06.574 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - []
+2018-01-13 07:01:06.581 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 08:23:05.947 DEBUG 7483 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 08:23:05.983 TRACE 7483 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - []
+2018-01-13 08:23:05.989 TRACE 7483 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 10:09:26.423 DEBUG 7483 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 10:09:26.474 TRACE 7483 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - []
+2018-01-13 10:09:26.483 TRACE 7483 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 10:24:47.230 DEBUG 7483 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 10:24:47.255 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - []
+2018-01-13 10:24:47.259 TRACE 7483 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 10:57:00.864 DEBUG 7483 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 10:57:00.895 TRACE 7483 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [mukesh]
+2018-01-13 10:57:00.900 TRACE 7483 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 10:57:01.043 DEBUG 7483 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_2_0_,
+        daftarhuni0_.no_kamar as no_kamar2_2_0_,
+        daftarhuni0_.seq_no as seq_no3_2_0_ 
+    from
+        daftarhunian_dtl daftarhuni0_ 
+    where
+        daftarhuni0_.no_trx=?
+2018-01-13 10:57:01.072 TRACE 7483 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [258]
+2018-01-13 10:57:01.088 DEBUG 7483 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    insert 
+    into
+        daftarhunian_dtl
+        (no_kamar, seq_no) 
+    values
+        (?, ?)
+2018-01-13 10:57:01.111 TRACE 7483 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [233]
+2018-01-13 10:57:01.115 TRACE 7483 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [233]
+2018-01-13 10:57:01.135  WARN 7483 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1364, SQLState: HY000
+2018-01-13 10:57:01.139 ERROR 7483 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : (conn=134) Field 'no_trx' doesn't have a default value
+2018-01-13 10:57:01.199 ERROR 7483 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: could not execute statement; nested exception is org.hibernate.exception.GenericJDBCException: could not execute statement] with root cause
+
+java.sql.SQLException: Field 'no_trx' doesn't have a default value
+Query is: insert into daftarhunian_dtl (no_kamar, seq_no) values (?, ?), parameters [233,233]
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:153) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:253) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:209) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.execute(MariaDbPreparedStatementClient.java:150) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeUpdate(MariaDbPreparedStatementClient.java:183) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2803) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3374) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:619) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:273) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:254) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:299) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:317) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:272) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:178) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:109) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.jpa.event.internal.core.JpaMergeEventListener.saveWithGeneratedId(JpaMergeEventListener.java:56) ~[hibernate-entitymanager-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:255) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:235) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:301) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:170) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:69) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:840) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:822) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:827) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.merge(AbstractEntityManagerImpl.java:1161) ~[hibernate-entitymanager-5.0.11.Final.jar:5.0.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:347) ~[spring-orm-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at com.sun.proxy.$Proxy86.merge(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298) ~[spring-orm-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at com.sun.proxy.$Proxy86.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:509) ~[spring-data-jpa-1.10.6.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:503) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:488) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:460) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133) ~[spring-data-jpa-1.10.6.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at com.sun.proxy.$Proxy92.save(Unknown Source) ~[na:na]
+	at com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlService.addDaftarhunianDtl(DaftarhunianDtlService.java:27) ~[classes/:na]
+	at com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlController.addDaftarhunianDtl(DaftarhunianDtlController.java:31) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2018-01-13 10:57:27.337 DEBUG 7483 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 10:57:27.433 TRACE 7483 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [mukesh]
+2018-01-13 10:57:27.451 TRACE 7483 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 10:57:27.708 DEBUG 7483 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_,
+        daftarhuni0_.penyelenggara as penyelen4_3_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_ 
+    from
+        daftarhunian_hdr daftarhuni0_
+2018-01-13 10:57:39.081 DEBUG 7483 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_,
+        daftarhuni0_.penyelenggara as penyelen4_3_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_ 
+    from
+        daftarhunian_hdr daftarhuni0_
+2018-01-13 10:57:53.119 DEBUG 7483 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_,
+        daftarhuni0_.penyelenggara as penyelen4_3_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_ 
+    from
+        daftarhunian_hdr daftarhuni0_
+2018-01-13 10:58:01.099 DEBUG 7483 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_3_,
+        daftarhuni0_.jml_peserta as jml_pese2_3_,
+        daftarhuni0_.kode_kegiatan as kode_keg3_3_,
+        daftarhuni0_.penyelenggara as penyelen4_3_,
+        daftarhuni0_.sudah_selesai as sudah_se5_3_,
+        daftarhuni0_.tgl_mulai as tgl_mula6_3_,
+        daftarhuni0_.tgl_selesai as tgl_sele7_3_ 
+    from
+        daftarhunian_hdr daftarhuni0_
+2018-01-13 10:58:08.814 DEBUG 7483 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_2_,
+        daftarhuni0_.no_kamar as no_kamar2_2_,
+        daftarhuni0_.seq_no as seq_no3_2_ 
+    from
+        daftarhunian_dtl daftarhuni0_
+2018-01-13 10:59:08.959 DEBUG 7483 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        userinfo0_.username as username1_7_,
+        userinfo0_.country as country2_7_,
+        userinfo0_.enabled as enabled3_7_,
+        userinfo0_.full_name as full_nam4_7_,
+        userinfo0_.password as password5_7_,
+        userinfo0_.role as role6_7_ 
+    from
+        users userinfo0_ 
+    where
+        userinfo0_.username=? 
+        and userinfo0_.enabled=?
+2018-01-13 10:59:08.994 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [mukesh]
+2018-01-13 10:59:08.999 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [SMALLINT] - [1]
+2018-01-13 10:59:09.144 DEBUG 7483 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        daftarhuni0_.no_trx as no_trx1_2_0_,
+        daftarhuni0_.no_kamar as no_kamar2_2_0_,
+        daftarhuni0_.seq_no as seq_no3_2_0_ 
+    from
+        daftarhunian_dtl daftarhuni0_ 
+    where
+        daftarhuni0_.no_trx=?
+2018-01-13 10:59:09.167 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [258]
+2018-01-13 10:59:09.173 DEBUG 7483 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        daftarhunian_dtl
+        (no_kamar, seq_no) 
+    values
+        (?, ?)
+2018-01-13 10:59:09.184 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [233]
+2018-01-13 10:59:09.188 TRACE 7483 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [INTEGER] - [233]
+2018-01-13 10:59:09.192  WARN 7483 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1364, SQLState: HY000
+2018-01-13 10:59:09.196 ERROR 7483 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : (conn=134) Field 'no_trx' doesn't have a default value
+2018-01-13 10:59:09.216 ERROR 7483 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.orm.jpa.JpaSystemException: could not execute statement; nested exception is org.hibernate.exception.GenericJDBCException: could not execute statement] with root cause
+
+java.sql.SQLException: Field 'no_trx' doesn't have a default value
+Query is: insert into daftarhunian_dtl (no_kamar, seq_no) values (?, ?), parameters [233,233]
+	at org.mariadb.jdbc.internal.util.LogQueryTool.exceptionWithQuery(LogQueryTool.java:153) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:253) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeInternal(MariaDbPreparedStatementClient.java:209) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.execute(MariaDbPreparedStatementClient.java:150) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.mariadb.jdbc.MariaDbPreparedStatementClient.executeUpdate(MariaDbPreparedStatementClient.java:183) ~[mariadb-java-client-2.2.1.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:204) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2803) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3374) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:619) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:273) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:254) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:299) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:317) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:272) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:178) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:109) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.jpa.event.internal.core.JpaMergeEventListener.saveWithGeneratedId(JpaMergeEventListener.java:56) ~[hibernate-entitymanager-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:255) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:235) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:301) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:170) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:69) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:840) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:822) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:827) ~[hibernate-core-5.0.11.Final.jar:5.0.11.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.merge(AbstractEntityManagerImpl.java:1161) ~[hibernate-entitymanager-5.0.11.Final.jar:5.0.11.Final]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:347) ~[spring-orm-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at com.sun.proxy.$Proxy86.merge(Unknown Source) ~[na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:298) ~[spring-orm-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at com.sun.proxy.$Proxy86.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:509) ~[spring-data-jpa-1.10.6.RELEASE.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:503) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:488) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:460) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:61) ~[spring-data-commons-1.12.6.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136) ~[spring-tx-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:133) ~[spring-data-jpa-1.10.6.RELEASE.jar:na]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213) ~[spring-aop-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at com.sun.proxy.$Proxy92.save(Unknown Source) ~[na:na]
+	at com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlService.addDaftarhunianDtl(DaftarhunianDtlService.java:27) ~[classes/:na]
+	at com.course.springbootstarter.daftarhuniandtl.DaftarhunianDtlController.addDaftarhunianDtl(DaftarhunianDtlController.java:31) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:220) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:169) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177) ~[spring-security-web-4.1.4.RELEASE.jar:4.1.4.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.5.RELEASE.jar:4.3.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2018-01-13 10:59:28.967  INFO 7483 --- [Thread-9] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@11b2fbbd: startup date [Sat Jan 13 03:35:00 UTC 2018]; root of context hierarchy
+2018-01-13 10:59:28.999  INFO 7483 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-01-13 10:59:29.016  INFO 7483 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

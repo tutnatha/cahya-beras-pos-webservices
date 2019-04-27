@@ -1,0 +1,9 @@
+package com.course.springbootstarter.kamar;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface Kamar1Repository extends CrudRepository<Kamar, String> {
+
+
+
+}

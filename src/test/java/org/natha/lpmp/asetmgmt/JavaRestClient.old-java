@@ -1,0 +1,47 @@
+package org.natha.lpmp.asetmgmt;
+
+import java.net.URI;
+
+import org.apache.tomcat.util.codec.binary.Base64;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.web.client.RestTemplate;
+
+//import com.concretepage.entity.Article;
+import com.course.springbootstarter.kamar.Kamar;
+
+public class JavaRestClient {
+    private HttpHeaders getHeaders() {
+    	String credential="mukesh:m123";
+    	//String credential="tarun:t123";
+    	String encodedCredential = new String(Base64.encodeBase64(credential.getBytes()));
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+     	headers.add("Authorization", "Basic " + encodedCredential);
+    	return headers;
+    }
+    
+    public void addArticleDemo() {
+    	HttpHeaders headers = getHeaders();  
+        RestTemplate restTemplate = new RestTemplate();
+	    String url = "http://localhost:8080/kamar";
+	    Kamar objKamar = new Kamar();
+//	    objArticle.setTitle("Spring REST Security using Hibernate");
+//	    objArticle.setCategory("Spring");
+	    objKamar.setJmlTt(2);
+	    objKamar.setLantai(2);
+	    objKamar.setNo("244");
+	    objKamar.setUrlPicture("www.lpmp-prov-bali.com");
+        HttpEntity<Kamar> requestEntity = new HttpEntity<Kamar>(objKamar, headers);
+        URI uri = restTemplate.postForLocation(url, requestEntity);
+        System.out.println(uri.getPath());    	
+    }
+    
+    public JavaRestClient(){}
+    
+    public static void main(String args[]){
+    	JavaRestClient jrs = new JavaRestClient();
+    	jrs.addArticleDemo();
+    }
+}
