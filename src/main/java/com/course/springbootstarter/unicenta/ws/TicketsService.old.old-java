@@ -1,0 +1,47 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.course.springbootstarter.unicenta.ws;
+
+import com.course.springbootstarter.unicenta.tickets.SelectedTicketsColumn;
+import com.course.springbootstarter.unicenta.tickets.Tickets;
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+@Service
+public class TicketsService {
+    @Autowired
+    private TicketsRepository ticketsRepository;
+
+    @PersistenceContext	
+    private EntityManager entityManager;
+    
+//    public List<Tickets> getAllTickets() {
+    public List<SelectedTicketsColumn> getAllTickets() {
+//        List<Tickets> ticketsList = new ArrayList<>();
+        List<SelectedTicketsColumn> ticketsList = new ArrayList<SelectedTicketsColumn>();
+//        ticketsRepository.findAll().forEach(ticketsList::add);
+        ticketsRepository.findAllPilihKolom().forEach(ticketsList::add);
+        return ticketsList;
+    }
+    
+    public List<SelectedTicketsColumn> getAllQueriSelectedTicketsColumn() {
+        List<SelectedTicketsColumn> ticketsList = new ArrayList<>();
+//        daftarhunianHdrRepository.findAll().forEach(daftarhunianHdrs::add);
+        Query nativeQuery = entityManager.createNativeQuery("SELECT t.id, "+
+            "t.tickettype, t.ticketid, t.status FROM Tickets t");
+//        return nativeQuery.getResultList();
+        ticketsList = nativeQuery.getResultList();
+//        daftarHunianAsramaRepository.findAll().forEach(daftarhunianHdrs::add);
+        return ticketsList;
+    }
+
+}

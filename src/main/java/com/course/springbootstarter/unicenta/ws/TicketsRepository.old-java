@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.course.springbootstarter.unicenta.ws;
+
+import com.course.springbootstarter.daftarhunian.DaftarhunianHdr;
+import com.course.springbootstarter.unicenta.tickets.SelectedTicketsColumn;
+import com.course.springbootstarter.unicenta.tickets.Tickets;
+import java.util.List;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+/**
+ *
+ * @author tutnatha
+ */
+public interface TicketsRepository extends CrudRepository<Tickets, String>{
+    @Query ("SELECT t.id, t.tickettype, t.ticketid, t.status FROM Tickets t")
+    public List<SelectedTicketsColumn> findAllPilihKolom();
+    
+}

@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
-  <persistence-unit name="org.lpmp.prov.bali_kangen-water-restfull-svr-mgnt_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+  <persistence-unit name="org.natha.cahaya-beras-restfull-svr-mgnt_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <!--
     <class>com.course.springbootstarter.transformasi_satuan.TransformasiSatuan</class>
+    -->
+    
+    <class>com.course.springbootstarter.unicenta.tickets.Attribute</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Attributeinstance</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Attributeset</class>
+    <class>com.com.course.springbootstarter.unicenta.tickets.Attributesetinstance</class>
+    <class>com.com.course.springbootstarter.unicenta.tickets.Attributeuse</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Attributevalue</class>
+    <class>com.com.course.springbootstarter.unicenta.tickets.Categories</class>
+    <class>com.com.course.springbootstarter.unicenta.tickets.Closedcash</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Customers</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Leaves</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Locations</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Payments</class>
+    <class>com.course.springbootstarter.unicenta.tickets.People</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Products</class>
+    <class>com.course.springbootstarter.unicenta.tickets.ProductsBundle</class>
+    <class>com.course.springbootstarter.unicenta.tickets.ProductsCat</class>
+    <class>com.course.springbootstarter.unicenta.tickets.ProductsCom</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Receipts</class>
+    <class>com.course.springbootstarter.unicenta.tickets.ReservationCustomers</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Reservations</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Roles</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Stockdiary</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Stocklevel</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Taxcategories</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Taxcustcategories</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Taxes</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Taxlines</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Ticketlines</class>
+    <class>com.course.springbootstarter.unicenta.tickets.Tickets</class>
+
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/kangen_water?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/unicentaopos?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="natha"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value="natha123"/>
